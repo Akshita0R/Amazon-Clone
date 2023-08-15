@@ -1,0 +1,129 @@
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 3px;
+}
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__bottom{
+    background-color: #232f3e;
+
+}
+
+.header__bottom ul{
+    list-style: none;
+    padding: 5px 30px 10px 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom ul li{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header__search input{
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.header__searchIcon{
+    padding: 8px;
+    height: 20px;
+    background-color: #cd9042;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__option{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.header__optionone{
+    font-size: 10px;
+    color: white;
+}
+
+.header__optiontwo{
+    font-size: 13px;
+    font-weight: 800;
+    display: block; 
+    color: white;
+}
+
+.header__optionBasket{
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__optionBasket a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header__optionBasket a span{
+    margin-top: -20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: orangered;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header__bottom ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.header__option .logout{
+    background-color: #f0c14b;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.header__option .login{
+    margin-top: 20px;
+    background-color: #f0c14b;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.header__optiongreet{
+    color: #fff;
+}
